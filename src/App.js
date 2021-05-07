@@ -10,26 +10,26 @@ import {
   Link
 } from 'react-router-dom';
 
+
 import React from 'react';
 
 class  App extends React.Component {
   constructor(){
     super();
-    this.state={details:[0,0,0,0],
-                form_detail:[]
+    this.state={details:[0,0,0,0], //details has 4 values that represent total trips,no.of tropic trip,no.of trek trip,no.of clib trip;
+                form_detail:[]     //It initialy empty and it hold the trip details that is date,place,type of trip;
               }
   }
-  handle=(val,arr)=>{
+  handle=(val,arr)=>{              //update when new form for trip is filled and we passed as props to the child components
     this.setState({details:val,form_detail:arr})
   }
   render(){
-    console.log(this.state)
   return (
     <div className="main">
     <Router>
       <Navigation/>
       <Switch>
-        <Route exact path="/">
+        <Route exact path="/react-protrips">
           <div className="section">
           <Home details={this.state.details}/>
           </div>
