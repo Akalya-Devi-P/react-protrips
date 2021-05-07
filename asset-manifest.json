@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ramkumar-1819/react-protrips/static/css/main.b9c22608.chunk.css",
-    "main.js": "/ramkumar-1819/react-protrips/static/js/main.d45008eb.chunk.js",
-    "main.js.map": "/ramkumar-1819/react-protrips/static/js/main.d45008eb.chunk.js.map",
+    "main.js": "/ramkumar-1819/react-protrips/static/js/main.18da670b.chunk.js",
+    "main.js.map": "/ramkumar-1819/react-protrips/static/js/main.18da670b.chunk.js.map",
     "runtime-main.js": "/ramkumar-1819/react-protrips/static/js/runtime-main.a4de82d7.js",
     "runtime-main.js.map": "/ramkumar-1819/react-protrips/static/js/runtime-main.a4de82d7.js.map",
     "static/js/2.73258500.chunk.js": "/ramkumar-1819/react-protrips/static/js/2.73258500.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.a4de82d7.js",
     "static/js/2.73258500.chunk.js",
     "static/css/main.b9c22608.chunk.css",
-    "static/js/main.d45008eb.chunk.js"
+    "static/js/main.18da670b.chunk.js"
   ]
 }
